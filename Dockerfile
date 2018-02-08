@@ -21,6 +21,7 @@ RUN apt-get update && \
         libpq-dev
 
 RUN pip install numpy
+RUN pip install matplotlib
 
 WORKDIR /
 ENV OPENCV_VERSION="3.4.0"
